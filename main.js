@@ -14,6 +14,7 @@ console.log('Mary');
 
 console.log('Question 2');
 var name = 'Mary';
+console.log(name);
 
 //3. Declare two variables with number values. 
 //   Add, subtract, multiply and divide them.
@@ -48,15 +49,38 @@ console.log(five / three);
 //6. Create a prompt that asks a user to pick a number. 
 //   Then double the answer.
 
+console.log('Question 6');
+var number = prompt("Pick a number");
+console.log(number * 2);
+
 //7. Create a custom alert.
+
+console.log('Question 7');
+alert("I'M A COMPUTER");
 
 //8. Declare three variables called length, width and height. 
 //   Calculate area and volume.
+
+console.log('Question 8');
+var length = 7;
+var width = 2;
+var height = 3;
+var area = length * width;
+var volume = area * height;
+console.log(area);
+console.log(volume);
 
 //9. Ask for a user's name, age and city. 
 //   In a single command display/log the sentence:
 //   "My name is...I'm....years old, and I live in....."
 
+console.log('Question 9');
+var nameQuestion9 = prompt("Name");
+var age = prompt("Age");
+var city = prompt("City");
+console.log("My name is " + nameQuestion9  + ". I'm " + age  + " years old, and I live in " + city + ".");
+
 //10. Create an alert that uses the response from a prompt.
 
-
+console.log('Question 10');
+alert("Never change, " + nameQuestion9);
